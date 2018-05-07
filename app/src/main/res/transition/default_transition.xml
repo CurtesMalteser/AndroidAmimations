@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<transitionSet xmlns:android="http://schemas.android.com/apk/res/android">
+    <fade  android:fadingMode="fade_in" android:duration="3000">
+        <targets>
+            <target android:targetId="@+id/image"/>
+            <target android:targetId="@+id/btnCloseTransitionActivity"/>
+        </targets>
+    </fade>
+    <slide android:duration="3000" android:slideEdge="top">
+        <targets>
+            <target android:targetId="@+id/tvDummyText"/>
+        </targets>
+    </slide>
+</transitionSet>

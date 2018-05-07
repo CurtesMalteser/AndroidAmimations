@@ -6,6 +6,12 @@
         <item name="colorPrimary">@color/colorPrimary</item>
         <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
         <item name="colorAccent">@color/colorAccent</item>
+
+    </style>
+
+    <style name="MyTransitionTest" parent="AppTheme">
+        <item name="android:windowEnterTransition">@transition/eplode_animation</item>
+        <item name="android:windowExitTransition">@transition/eplode_animation</item>
     </style>
 
 </resources>
